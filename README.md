@@ -290,7 +290,7 @@ Alternatively install with [Scoop](https://scoop.sh/):
 
 **With Podman:** Just run
 
-    podman run -v /tmp:/tmp -p 8080:8080 --rm -it docker.io/svenstaro/miniserve /tmp
+    podman run -v /tmp:/tmp:Z -p 8080:8080 --rm -it docker.io/svenstaro/miniserve /tmp
 
 ## Shell completions
 
